@@ -1,0 +1,951 @@
+
+    header{
+        width: 100%;
+        display:flex ;
+        justify-content: space-around;
+        background-color: white;
+    }
+    header h1{
+        margin-top: 15px;
+        
+    }
+    header>h1 >a:hover{
+        color: red;
+    }
+    section nav{
+        display: inline;
+        justify-content: space-between;
+        
+        
+        
+        
+        
+    }
+    section{
+        margin-top: 27px;
+    }
+    section nav a{
+        padding:10px ;
+
+    }
+    section nav a:active{
+        color: red;
+    }
+    section nav a:hover{
+        color: red;
+    }
+    header>a{
+        margin-top: 10px;
+        padding: 10px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 5%;
+    }
+    header h1 a,header section nav a{
+        text-decoration: none;
+        color: black;
+        
+        
+    }
+    header section nav a{
+        font-size: 20px;
+    }
+    .hero-section{
+        width: 100%;
+        height:700px;
+        margin-top: 20px;
+        position: relative;
+        
+
+    }
+    .hero-sectionimgtext{
+        position: absolute;
+        bottom: 40px;
+        left: 15px;
+
+    }
+    
+    .hero-sectionimgtext  :nth-child(1){
+        color: white;
+        font-size: 30px;
+    }
+    .hero-sectionimgtext  :nth-child(2){
+        color:grey;
+        background-color: whitesmoke;
+        padding: 10px;
+        border-radius: 20%;
+
+    }
+    .hero-sectionimgtext  p{
+        color: white;
+    }
+    .hero-sectionimgtext  .bi{
+        color:gold;
+    }
+
+    
+
+    .hero-sectionimg{
+        width: 50%;
+        height: 400px;
+        position: absolute;
+        top: 80px;
+        right: 65px;
+    }
+    .hsi{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .hero-sectiontext {
+        color: white;
+        position: absolute;
+        top: 200px;
+        left:85px ;
+
+
+    }
+    .hero-sectiontext h1{
+        font-size: 60px;
+        line-height: 1;
+    }
+    .hero-sectiontext >.bi{
+        color: gold;
+    }
+    .hero-sectiontext p{
+        font-size: 30px;
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+.text-menu{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+#idea{
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right:30px ;
+    
+}
+.grid-container{
+    gap: 20px;
+    width: 100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    'a b c'
+    'd e f';
+}
+.gi1{
+   width: 100%;
+   height:100%;
+    
+}
+.item-1{
+    grid-area: a;
+    width:100%;
+    height: 200px;
+    position: relative;
+
+}
+.breakf{
+    background-color:gold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 5%;
+    color: white;
+}
+.item-1 :nth-child(3),.item-2 :nth-child(3),.item-3 :nth-child(3),.item-4 :nth-child(3),.item-5 :nth-child(3),.item-6 :nth-child(3){
+    font-size: 25px;
+}
+.item-1 :nth-child(4){
+    background-color:black;
+    color: gold;
+    padding: 10px;
+    border-radius: 20%;
+    
+
+}
+.item-1 :last-child,.item-2 :last-child,.item-3 :last-child,.item-4 :last-child,.item-5 :last-child,.item-6 :last-child{
+color: grey;
+}
+
+.item-1 .bi{
+    color: gold;
+
+}
+.gimg1{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gi2{
+    width: 100%;
+    height:100%;
+    
+    
+     
+}
+.item-2{
+    grid-area: b;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    
+}
+.item-2 :nth-child(4){
+    background-color:black;
+    color: gold;
+    padding: 10px;
+    border-radius: 20%;
+    
+
+}
+.item-2 .bi{
+    color: gold;
+}
+.lunch{
+    background-color: gold;
+position: absolute;
+top: 5px;
+right: 5px;
+border-radius: 5%;
+    color: white;
+
+}
+.gimg2{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gi3{
+    width: 100%;
+    height:100%;
+    
+    }
+.item-3{
+    grid-area: c;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.item-3 :nth-child(4){
+    background-color:black;
+    color: gold;
+    padding: 10px;
+    border-radius: 20%;
+    
+
+}
+.item-3 .bi{
+    color: gold;
+}
+.dinner{
+    background-color: gold;
+    position: absolute;
+    top: 5px;
+right: 5px;
+border-radius: 5%;
+    color: white;
+}
+.gimg3{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gi4{
+    width: 100%;
+    height:100%;
+     
+    }
+.item-4{
+    grid-area: d;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.item-4 :nth-child(4){
+    background-color:black;
+    color: gold;
+    padding: 10px;
+    border-radius: 20%;
+    
+
+}
+.item-4 .bi{
+    color: gold;
+}
+.dinner1{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: gold;
+    border-radius: 5%;
+    color: white;
+}
+.gimg4{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gi5{
+    width: 100%;
+    height:100%;
+    
+    }
+.item-5{
+    grid-area: e;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.item-5 :nth-child(4){
+    background-color:black;
+    color: gold;
+    padding: 10px;
+    border-radius: 20%;
+    
+
+}
+
+.item-5 .bi{
+    color: gold;
+}
+
+.breakf1{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: gold;
+    border-radius: 5%;
+    color: white;
+}
+.gimg5{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gi6{
+    width: 100%;
+    height:100%;
+
+    }
+.item-6{
+    grid-area:f;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.item-6 :nth-child(4){
+    background-color:black;
+    color: gold;
+    padding: 10px;
+    border-radius: 20%;
+    
+
+}
+.item-6 .bi{
+    color: gold;
+}
+.lunch1{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 5%;
+    color: white;
+    background-color: gold;
+}
+.gimg6{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.back{
+    width: 100%;
+    height: 700px;
+    background-image: url("./peoplefood.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    
+}
+.part2{
+    width: 100%;
+    height: 850px;
+    
+}
+.text-ne{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.gridcontainer2{
+    width: 100%;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+    
+}
+.grid-1{
+    width: 100%;
+    height: 300px;
+     display: grid;
+ grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    'a b';
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.pic-1{
+    width: 100%;
+    height:300px;
+    grid-area: a;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.h1:hover{
+    transform: scale(1.1);
+    
+   
+}
+.pic-11 >a{
+position: absolute;
+background-color: rgb(202, 9, 9);
+color: white;
+bottom: 50px;
+padding:5px;
+border-radius: 5%;
+left:5%;
+text-decoration: none;
+
+
+}
+.pic-11 >h3{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left:5%;
+    bottom:10px ;
+    
+}
+.h1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pic-2{
+    width: 100%;
+    height:300px ;
+    grid-area: b;
+    position: relative;
+    overflow: hidden;
+
+}
+.pic-22 >h3{
+    left: 5%;
+    bottom: 10px;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+
+}
+.pic-22 >a{
+    left: 5%;
+    text-decoration: none;
+    bottom: 50px;
+   background-color:  rgb(202, 9, 9);
+   color: white;
+   position: absolute;
+   padding: 5px;
+}
+.h2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.h2:hover{
+    transform: scale(1.1);
+    
+}
+.grid-2{
+    width: 100%;
+    height:300px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    'a b c';
+    
+    
+}
+.pic-3{
+    width: 100%;
+    height:300px;
+    grid-area: a;
+    overflow: hidden ;
+
+
+}
+.pic-3text{
+
+    margin-top: 10px;
+    margin-left: 12px;
+    line-height: 2;
+    
+}
+.pic-3text >span:nth-child(1){
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 5%;
+    
+
+
+}
+.pic-3text h3:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.h3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.h3:hover{
+    
+    transform: scale(1.1);
+
+}
+.pic-4{
+    width: 100%;
+    height:300px;
+    grid-area: b;
+    overflow: hidden ;
+
+}
+.pic-4text>span{
+background-color: black;
+color: white;
+padding:3px ;
+border-radius: 5%;
+}
+.pic-4text{
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 2;
+}
+.pic-4text h3:hover{
+    color: red;
+    cursor: pointer;
+}
+.h4{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h4:hover{
+    transform: scale(1.1);
+    
+}
+.pic-5{
+    width: 100%;
+    height: 300px;
+    grid-area: c;
+    overflow: hidden ;
+
+}
+.pic-5text>span:nth-child(1){
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 5%;
+    
+}
+.pic-5text{
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 2;
+}
+.pic-5text h3:hover{
+    color: red;
+    cursor: pointer;
+}
+.h5{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h5:hover{
+    
+    transform: scale(1.1);
+
+}
+#bottomtext{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    
+    
+}
+
+.rimg{
+    width: 100%;
+    height: 100%;
+}
+.ck{
+    position: absolute;
+    
+    color: white;
+    top:100px;
+    left: 110px;
+}
+.bc{
+    width:100%;
+    height:70% ;
+position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top:150px;   
+}
+.mad-1 {
+    
+    line-height: 2;
+    
+    
+
+}
+.mad-1 p{
+    color: white;
+}
+.mad-1 >h4{
+    font-size:27px ;
+    color: white;
+}
+.mad-1 >a{
+    text-decoration: none;
+    color:white;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 3%;
+}
+.mad-2 h4{
+    color: white;
+    font-size: 27px;
+    line-height: 2;
+
+
+}
+.mad-2 p{
+    color:white;
+    line-height: 2;
+}
+.mad-3 h4{
+    color: white;
+    font-size: 27px;
+    line-height:2 ;
+}
+.mad-3 i{
+    color: white;
+    cursor: pointer;
+
+}
+.socialmedia{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+.mad-3 p{
+    color: white;
+}
+
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+@media screen and (max-width : 600px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    section nav{
+        display: block;
+        justify-content: space-between;
+    }
+    .hero-section{
+        height: 400px;
+    }
+    .hero-sectiontext{
+        left: 10px;
+    }
+    .hero-sectiontext h1{
+        font-size: 15px;
+    }
+    .hero-sectiontext p{
+        font-size: 10px;
+    }
+    .hero-sectiontext  .bi{
+        font-size: 10px;
+
+    }
+    .hero-sectiontext :nth-child(3){
+        font-size: 10px;
+    }
+    
+    .hero-sectionimg{
+        width: 40%;
+        height: 250px;
+        right: 10px;
+    }
+    .hero-sectionimgtext :nth-child(1){
+        font-size: 13px;
+
+    }
+    .hero-sectionimgtext :nth-child(2){
+        font-size: 10px;
+        border-radius: 3%;
+        padding: 3px;
+    }
+    .hero-sectionimgtext :nth-child(3){
+        font-size: 10px;
+    }
+    .hero-sectionimgtext .bi{
+        font-size: 10px;
+    }
+    .text-menu{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #idea{
+        height: 1800px;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .grid-container{
+        height: 100%;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+         'a'
+         'b'
+         'c'
+         'd'
+         'e'
+         'f'
+        ;
+    }
+    .gi1{
+        height:70% ;
+    }
+    .gi2{
+        height:70% ;
+    }
+    .gi3{
+        height:70% ;
+    }
+    .gi4{
+        height:70% ;
+    }
+    .gi5{
+        height:70% ;
+    }
+    .gi6{
+        height:70% ;
+    }
+    .item{
+        height: 85%;
+    }
+    .breakf{
+        font-size: 10px;
+    }
+    .item :nth-child(3){
+        font-size: 12px;
+    }
+    .item :nth-child(4){
+        font-size: 10px;
+        padding: 3px;
+    }
+    .item p{
+        font-size: 10px;
+    }
+    .item :last-child{
+        font-size: 10px;
+    }
+    .item .bi{
+        font-size: 10px;
+    }
+    .breakf1{
+        font-size: 10px;
+    }
+    .lunch{
+        font-size: 10px;
+    }
+    .lunch1{
+        font-size: 10px;
+    }
+    .dinner{
+        font-size: 10px;
+    }
+    .dinner1{
+        font-size: 10px;
+    }
+    .back{
+        width:100%;
+        height: 500px;
+    }
+    .text-ne{
+        font-size:13px ;
+        margin-top: 10px;
+    }
+    .part2{
+        height: 1100px;
+    }
+    .gridcontainer2{
+        height: 600px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .grid-1{
+        height: 300px;
+        gap: 40px;
+        margin-bottom: 80px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'a'
+        'b';
+    }
+    .pic-1{
+        height: 150px;
+    }
+    .pic-2{
+        height: 150px;
+    }
+    .pic-11 a{
+        font-size: 10px;
+        bottom: 25px;
+    }
+    .pic-11 h3{
+        font-size: 10px;
+    }
+    .pic-22 a{
+        font-size: 10px;
+        bottom: 25px;
+    }
+    .pic-22 h3{
+        font-size: 10px;
+    }
+    .grid-2{
+        height: 300px;
+        
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'a'
+        'b'
+        'c';
+    }
+    .pic-3{
+        height: 220px;
+        position: relative;
+        
+        
+    }
+    .h3{
+        height:80% ;
+    }
+    .pic-3text{
+    
+        
+        margin-left: 10px;
+        margin-top:190px ;
+        line-height: 1;
+        font-size: 10px;
+        position: absolute;
+        }
+    .pic-4{
+            height: 220px;
+            position: relative;
+        
+            
+            
+        }
+    .h4{
+            height:80% ;
+        }
+    .pic-4text{
+          margin-left: 10px;
+            margin-top:420px ;
+            line-height: 1;
+            font-size: 10px;
+            position: absolute;
+        }
+    .pic-5{
+        height: 220px;
+        position: relative;
+    }
+    .h5{
+        height: 80%;
+    }
+    .pic-5text{
+        font-size: 10px;
+        line-height: 1;
+        margin-top: 650px;
+        position: absolute;
+    }
+    .ck{
+        font-size:18px ;
+        left: 0px;
+    }
+    #bottomtext{
+        height: 600px;
+        top: 0px;
+    }
+    .rimg{
+        height: 100%;
+    }
+    .bc{
+        top: 130px;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        line-height: 1;
+    }
+    .mad-1 h4{
+        font-size:20px ;
+    }
+    .mad-2 h4{
+        font-size:20px ;
+    }
+    .mad-3 h4{
+        font-size: 20px;
+    }
+    
+    
+}
