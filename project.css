@@ -750,7 +750,7 @@ position: absolute;
     .grid-container{
         height: 100%;
         display: grid;
-        gap: 5px;
+        gap: 0px;
         grid-template-columns: 1fr;
         grid-template-areas:
          'a'
@@ -763,6 +763,10 @@ position: absolute;
     }
     .gi1{
         height:70% ;
+    
+    }
+    .item{
+        gap: 0px;
     }
     .gi2{
         height:70% ;
