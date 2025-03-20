@@ -425,6 +425,7 @@ border-radius: 5%;
 }
 .h1:hover{
     transform: scale(1.1);
+    transition: 0.4s ease;
     
    
 }
@@ -486,6 +487,7 @@ text-decoration: none;
 }
 .h2:hover{
     transform: scale(1.1);
+    transition: 0.4s ease;
     
 }
 .grid-2{
@@ -536,7 +538,8 @@ text-decoration: none;
 .h3:hover{
     
     transform: scale(1.1);
-
+    transition: 0.4s ease;
+    
 }
 .pic-4{
     width: 100%;
@@ -567,6 +570,7 @@ border-radius: 5%;
 }
 .h4:hover{
     transform: scale(1.1);
+    transition: 0.4s ease;
     
 }
 .pic-5{
@@ -599,7 +603,8 @@ border-radius: 5%;
 .h5:hover{
     
     transform: scale(1.1);
-
+    transition: 0.4s ease;
+    
 }
 #bottomtext{
     width: 100%;
